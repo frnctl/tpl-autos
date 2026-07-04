@@ -3,158 +3,258 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TPL Autos | Garage automobile à Sannois</title>
-  <meta name="description" content="TPL Autos, garage automobile indépendant à Sannois, spécialiste des véhicules allemands : suspension, distribution, diagnostic, trains roulants, moteur et achat revente.">
+  <title>TPL Autos | Garage automobile à Sannois — Spécialiste véhicules allemands</title>
+  <meta name="description" content="TPL Autos, garage automobile indépendant à Sannois, spécialiste des véhicules allemands : suspension, distribution, diagnostic, trains roulants, moteur et achat revente. Devis en ligne sans engagement.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://frnctl.github.io/tpl-autos/">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="TPL Autos">
   <meta property="og:title" content="TPL Autos | La mécanique allemande prise au sérieux">
-  <meta property="og:description" content="Garage indépendant à Sannois pour suspension, distribution, diagnostic, trains roulants, moteur et achat revente de véhicules allemands.">
+  <meta property="og:description" content="Garage indépendant à Sannois : suspension, distribution, diagnostic, trains roulants, moteur et achat revente de véhicules allemands. Devis en ligne sans engagement.">
   <meta property="og:url" content="https://frnctl.github.io/tpl-autos/">
-  <meta property="og:image" content="https://frnctl.github.io/tpl-autos/logo.svg">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://frnctl.github.io/tpl-autos/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TPL Autos | La mécanique allemande prise au sérieux">
+  <meta name="twitter:description" content="Garage indépendant à Sannois : suspension, distribution, diagnostic, trains roulants, moteur et achat revente de véhicules allemands.">
+  <meta name="twitter:image" content="https://frnctl.github.io/tpl-autos/og-image.png">
   <meta name="theme-color" content="#05070b">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "AutoRepair",
-    "name": "TPL Autos",
-    "description": "Garage automobile indépendant à Sannois spécialisé dans les véhicules allemands.",
-    "url": "https://frnctl.github.io/tpl-autos/",
-    "telephone": "+33651243479",
-    "email": "tplauto@gmail.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "16-18 Boulevard du Président John Kennedy",
-      "postalCode": "95110",
-      "addressLocality": "Sannois",
-      "addressCountry": "FR"
-    },
-    "areaServed": ["Sannois", "Saint-Ouen", "Val-d'Oise"],
-    "knowsAbout": ["Suspension", "Distribution", "Diagnostic automobile", "Trains roulants", "Moteur", "Véhicules allemands", "Achat revente automobile"]
+    "@graph": [
+      {
+        "@type": "AutoRepair",
+        "@id": "https://frnctl.github.io/tpl-autos/#garage",
+        "name": "TPL Autos",
+        "description": "Garage automobile indépendant à Sannois spécialisé dans les véhicules allemands.",
+        "url": "https://frnctl.github.io/tpl-autos/",
+        "image": "https://frnctl.github.io/tpl-autos/og-image.png",
+        "logo": "https://frnctl.github.io/tpl-autos/logo.svg",
+        "telephone": "+33651243479",
+        "email": "tplauto@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "16-18 Boulevard du Président John Kennedy",
+          "postalCode": "95110",
+          "addressLocality": "Sannois",
+          "addressCountry": "FR"
+        },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=TPL+Autos+16-18+Boulevard+du+Pr%C3%A9sident+John+Kennedy+95110+Sannois",
+        "areaServed": ["Sannois", "Saint-Ouen", "Val-d'Oise"],
+        "knowsAbout": ["Suspension", "Distribution", "Diagnostic automobile", "Trains roulants", "Moteur", "Véhicules allemands", "Achat revente automobile"]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://frnctl.github.io/tpl-autos/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Le devis en ligne m'engage-t-il ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non. La demande de devis en ligne est sans engagement : vous décrivez votre besoin, l'atelier vous répond avec un devis clair."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Comment ma demande de devis est-elle envoyée ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Le formulaire construit un message structuré que vous envoyez vous-même par email, WhatsApp ou SMS depuis votre application. Rien n'est transmis avant votre validation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "TPL Autos est-il affilié aux constructeurs Audi, BMW, Mercedes ou Volkswagen ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non. TPL Autos est un garage indépendant, sans affiliation officielle aux marques citées, spécialisé dans l'entretien et la réparation des véhicules allemands."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
 <body>
-  <header class="site-header" aria-label="En-tête">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header" id="site-header">
     <a class="brand" href="#top" aria-label="TPL Autos accueil">
       <img src="logo.svg" alt="TPL Autos" width="172" height="64">
     </a>
-    <nav class="nav" aria-label="Navigation principale">
+    <nav class="nav" id="nav" aria-label="Navigation principale">
       <a href="#specialites">Spécialités</a>
       <a href="#vehicules">Véhicules</a>
+      <a href="#methode">Méthode</a>
       <a href="#devis">Devis</a>
+      <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
     </nav>
+    <div class="header-actions">
+      <a class="button button--primary button--compact" href="tel:+33651243479">06 51 24 34 79</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </header>
 
   <main id="top">
+    <span id="contenu" tabindex="-1"></span>
+
     <section class="hero">
-      <div class="hero__content">
-        <p class="eyebrow">Garage automobile indépendant à Sannois</p>
-        <h1>La mécanique allemande prise au sérieux</h1>
-        <p class="subtitle">Suspension distribution diagnostic trains roulants moteur et achat revente</p>
+      <div class="hero__content" data-reveal>
+        <p class="eyebrow">Garage automobile indépendant — Sannois</p>
+        <h1>La mécanique allemande <em>prise au sérieux</em></h1>
+        <p class="subtitle">Suspension, distribution, diagnostic, trains roulants, moteur et achat revente.</p>
         <div class="actions" aria-label="Actions de contact">
-          <a class="button button--primary" href="tel:+33651243479">Appeler</a>
-          <a class="button button--secondary" href="mailto:tplauto@gmail.com">Email</a>
-          <a class="button button--secondary" href="#devis">Devis en ligne</a>
+          <a class="button button--primary" href="#devis">Devis en ligne</a>
+          <a class="button button--secondary" href="tel:+33651243479">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>
+            Appeler
+          </a>
+          <a class="button button--secondary" href="mailto:tplauto@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z"/><path d="m3 6 9 7 9-7"/></svg>
+            Email
+          </a>
+        </div>
+        <ul class="hero__points" aria-label="Points clés">
+          <li>Diagnostic avant intervention</li>
+          <li>Devis clair, sans engagement</li>
+          <li>Spécialiste véhicules allemands</li>
+        </ul>
+      </div>
+      <aside class="hero__panel" data-reveal aria-label="Coordonnées TPL Autos">
+        <img src="logo.svg" alt="" width="220" height="82">
+        <dl>
+          <div>
+            <dt>Adresse</dt>
+            <dd>16-18 Boulevard du Président John Kennedy<br>95110 Sannois</dd>
+          </div>
+          <div>
+            <dt>Téléphone</dt>
+            <dd><a href="tel:+33651243479">06 51 24 34 79</a></dd>
+          </div>
+        </dl>
+        <a class="panel-link" href="https://www.google.com/maps/search/?api=1&amp;query=TPL+Autos+16-18+Boulevard+du+Pr%C3%A9sident+John+Kennedy+95110+Sannois" target="_blank" rel="noopener">Voir l'itinéraire →</a>
+      </aside>
+    </section>
+
+    <section class="section vehicles" id="vehicules">
+      <div class="marquee" aria-label="Marques concernées : Audi, BMW, Mercedes, Volkswagen">
+        <div class="marquee__track" aria-hidden="true">
+          <span>Audi</span><span class="dot"></span>
+          <span>BMW</span><span class="dot"></span>
+          <span>Mercedes</span><span class="dot"></span>
+          <span>Volkswagen</span><span class="dot"></span>
+          <span>Audi</span><span class="dot"></span>
+          <span>BMW</span><span class="dot"></span>
+          <span>Mercedes</span><span class="dot"></span>
+          <span>Volkswagen</span><span class="dot"></span>
         </div>
       </div>
-      <div class="hero__panel" aria-label="Coordonnées TPL Autos">
-        <img src="logo.svg" alt="" width="220" height="82">
-        <p>16-18 Boulevard du Président John Kennedy<br>95110 Sannois</p>
-        <a href="tel:+33651243479">06 51 24 34 79</a>
-      </div>
+      <p class="notice">Garage indépendant sans affiliation officielle aux marques citées.</p>
     </section>
 
     <section class="section" id="specialites">
-      <div class="section__heading">
+      <div class="section__heading" data-reveal>
         <p class="eyebrow">Spécialités atelier</p>
         <h2>Interventions techniques</h2>
       </div>
       <div class="service-grid">
-        <article class="service">
-          <span>01</span>
+        <article class="service" data-reveal>
+          <div class="service__top">
+            <svg class="service__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v3m0 14v3M6 5l3 2.5M6 19l3-2.5m9-11.5-3 2.5m3 9-3-2.5"/><path d="M8 8.5h8M8 12h8m-8 3.5h8"/></svg>
+            <span>01</span>
+          </div>
           <h3>Suspension</h3>
           <p>Amortisseurs, triangles, silentblocs, rotules et contrôle des bruits parasites.</p>
         </article>
-        <article class="service">
-          <span>02</span>
+        <article class="service" data-reveal>
+          <div class="service__top">
+            <svg class="service__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="7" cy="7" r="3.5"/><circle cx="17" cy="17" r="3.5"/><path d="M7 3.5c6 0 13.5 4 13.5 13.5M3.5 7C3.5 13 7.5 20.5 17 20.5"/></svg>
+            <span>02</span>
+          </div>
           <h3>Distribution</h3>
           <p>Courroie, chaîne, galets, pompe à eau et prévention des avaries moteur.</p>
         </article>
-        <article class="service">
-          <span>03</span>
+        <article class="service" data-reveal>
+          <div class="service__top">
+            <svg class="service__icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="13" rx="2"/><path d="m7 9 2.5 2L12 7l2.5 4L17 9M9 20h6m-3-4v4"/></svg>
+            <span>03</span>
+          </div>
           <h3>Diagnostic</h3>
           <p>Recherche de panne structurée, lecture défauts et contrôle avant intervention.</p>
         </article>
-        <article class="service">
-          <span>04</span>
+        <article class="service" data-reveal>
+          <div class="service__top">
+            <svg class="service__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M12 3v6m0 6v6M3 12h6m6 0h6"/></svg>
+            <span>04</span>
+          </div>
           <h3>Trains roulants</h3>
           <p>Vibrations, claquements, usure irrégulière, géométrie et tenue de route.</p>
         </article>
-        <article class="service">
-          <span>05</span>
+        <article class="service" data-reveal>
+          <div class="service__top">
+            <svg class="service__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9h3l2-2h6l2 2h1v8H5zM3 11v4m18-4v4M9 21v-2m6 2v-2"/><path d="M10 13h4"/></svg>
+            <span>05</span>
+          </div>
           <h3>Moteur</h3>
           <p>Perte de puissance, fuites, périphériques, entretien avancé et fiabilité.</p>
         </article>
-        <article class="service">
-          <span>06</span>
+        <article class="service" data-reveal>
+          <div class="service__top">
+            <svg class="service__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h13l-3-3m6 11H7l3 3"/></svg>
+            <span>06</span>
+          </div>
           <h3>Achat revente</h3>
           <p>Accompagnement sérieux pour sélectionner, préparer ou revendre un véhicule.</p>
         </article>
       </div>
     </section>
 
-    <section class="section vehicles" id="vehicules">
-      <div class="section__heading">
-        <p class="eyebrow">Véhicules allemands</p>
-        <h2>Audi, BMW, Mercedes, Volkswagen</h2>
-      </div>
-      <div class="brand-row" aria-label="Marques concernées">
-        <span>Audi</span>
-        <span>BMW</span>
-        <span>Mercedes</span>
-        <span>Volkswagen</span>
-      </div>
-      <p class="notice">Garage indépendant sans affiliation officielle aux marques citées.</p>
-    </section>
-
-    <section class="section method">
-      <div class="section__heading">
+    <section class="section method" id="methode">
+      <div class="section__heading" data-reveal>
         <p class="eyebrow">Méthode</p>
         <h2>Une intervention cadrée</h2>
       </div>
-      <div class="method-list">
-        <article>
+      <ol class="method-list">
+        <li data-reveal>
+          <span class="method-step" aria-hidden="true">1</span>
           <h3>Diagnostic clair</h3>
           <p>Identifier la cause réelle avant de remplacer des pièces.</p>
-        </article>
-        <article>
+        </li>
+        <li data-reveal>
+          <span class="method-step" aria-hidden="true">2</span>
           <h3>Devis propre</h3>
           <p>Présenter les travaux utiles, les priorités et les pièces concernées.</p>
-        </article>
-        <article>
+        </li>
+        <li data-reveal>
+          <span class="method-step" aria-hidden="true">3</span>
           <h3>Réparation sérieuse</h3>
           <p>Travailler avec précision sur les organes mécaniques sensibles.</p>
-        </article>
-      </div>
+        </li>
+      </ol>
     </section>
 
     <section class="section quote" id="devis">
-      <div class="section__heading">
+      <div class="section__heading" data-reveal>
         <p class="eyebrow">Devis en ligne</p>
         <h2>Décrivez votre besoin, recevez une réponse claire</h2>
         <p>Remplissez le formulaire : votre demande arrive structurée à l'atelier, par email, WhatsApp ou SMS. Réponse avec un devis propre, sans engagement.</p>
       </div>
       <div class="quote-grid">
-        <form class="quote-form" id="quote-form" aria-label="Formulaire de demande de devis">
+        <form class="quote-form" id="quote-form" data-reveal aria-label="Formulaire de demande de devis">
           <div class="field-row">
             <label>Marque
-              <select id="q-marque">
+              <select id="q-marque" name="marque" autocomplete="off">
                 <option value="">Choisir</option>
                 <option>Audi</option>
                 <option>BMW</option>
@@ -164,81 +264,112 @@
               </select>
             </label>
             <label>Modèle
-              <input type="text" id="q-modele" placeholder="ex : 320d, Golf 7, C220...">
+              <input type="text" id="q-modele" name="modele" maxlength="60" placeholder="ex : 320d, Golf 7, C220...">
             </label>
           </div>
           <div class="field-row">
             <label>Année
-              <input type="text" id="q-annee" inputmode="numeric" placeholder="ex : 2018">
+              <input type="text" id="q-annee" name="annee" inputmode="numeric" maxlength="4" placeholder="ex : 2018">
             </label>
             <label>Kilométrage
-              <input type="text" id="q-km" inputmode="numeric" placeholder="ex : 120 000">
+              <input type="text" id="q-km" name="km" inputmode="numeric" maxlength="9" placeholder="ex : 120 000">
             </label>
           </div>
           <fieldset class="quote-services">
             <legend>Intervention souhaitée</legend>
-            <label><input type="checkbox" value="Suspension"> Suspension</label>
-            <label><input type="checkbox" value="Distribution"> Distribution</label>
-            <label><input type="checkbox" value="Diagnostic"> Diagnostic</label>
-            <label><input type="checkbox" value="Trains roulants"> Trains roulants</label>
-            <label><input type="checkbox" value="Moteur"> Moteur</label>
-            <label><input type="checkbox" value="Entretien avancé"> Entretien avancé</label>
-            <label><input type="checkbox" value="Achat / revente"> Achat / revente</label>
+            <label><input type="checkbox" name="intervention" value="Suspension"> Suspension</label>
+            <label><input type="checkbox" name="intervention" value="Distribution"> Distribution</label>
+            <label><input type="checkbox" name="intervention" value="Diagnostic"> Diagnostic</label>
+            <label><input type="checkbox" name="intervention" value="Trains roulants"> Trains roulants</label>
+            <label><input type="checkbox" name="intervention" value="Moteur"> Moteur</label>
+            <label><input type="checkbox" name="intervention" value="Entretien avancé"> Entretien avancé</label>
+            <label><input type="checkbox" name="intervention" value="Achat / revente"> Achat / revente</label>
           </fieldset>
           <label>Symptômes ou demande
-            <textarea id="q-desc" rows="4" placeholder="ex : claquement à l'avant droit sur ralentisseur, voyant moteur allumé..."></textarea>
+            <textarea id="q-desc" name="description" rows="4" maxlength="1200" placeholder="ex : claquement à l'avant droit sur ralentisseur, voyant moteur allumé..."></textarea>
           </label>
           <div class="field-row">
             <label>Votre nom
-              <input type="text" id="q-nom" autocomplete="name">
+              <input type="text" id="q-nom" name="nom" maxlength="80" autocomplete="name">
             </label>
             <label>Votre téléphone
-              <input type="tel" id="q-tel" autocomplete="tel" placeholder="06...">
+              <input type="tel" id="q-tel" name="tel" maxlength="20" autocomplete="tel" placeholder="06...">
             </label>
           </div>
         </form>
-        <aside class="quote-recap" aria-label="Récapitulatif de la demande">
+        <aside class="quote-recap" data-reveal aria-label="Récapitulatif de la demande">
           <h3>Votre demande</h3>
-          <pre id="quote-preview">Complétez le formulaire, le récapitulatif se construit tout seul.</pre>
+          <pre id="quote-preview" aria-live="polite">Complétez le formulaire, le récapitulatif se construit tout seul.</pre>
           <div class="actions">
-            <a class="button button--primary" id="quote-mail" href="mailto:tplauto@gmail.com">Envoyer par email</a>
-            <a class="button button--whatsapp" id="quote-wa" href="https://wa.me/33651243479" target="_blank" rel="noopener">Envoyer sur WhatsApp</a>
-            <a class="button button--secondary" id="quote-sms" href="sms:+33651243479">Envoyer par SMS</a>
+            <a class="button button--primary" id="quote-mail" href="mailto:tplauto@gmail.com" aria-disabled="true">Envoyer par email</a>
+            <a class="button button--whatsapp" id="quote-wa" href="https://wa.me/33651243479" target="_blank" rel="noopener" aria-disabled="true">Envoyer sur WhatsApp</a>
+            <a class="button button--secondary" id="quote-sms" href="sms:+33651243479" aria-disabled="true">Envoyer par SMS</a>
+            <button class="button button--ghost" id="quote-copy" type="button" hidden>Copier la demande</button>
           </div>
           <p class="quote-note">L'envoi ouvre votre application email, WhatsApp ou SMS avec la demande déjà rédigée. Rien n'est transmis avant votre validation.</p>
         </aside>
       </div>
     </section>
 
+    <section class="section faq" id="faq">
+      <div class="section__heading" data-reveal>
+        <p class="eyebrow">Questions fréquentes</p>
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq-list" data-reveal>
+        <details>
+          <summary>Le devis en ligne m'engage-t-il ?</summary>
+          <p>Non. La demande de devis en ligne est sans engagement : vous décrivez votre besoin, l'atelier vous répond avec un devis clair.</p>
+        </details>
+        <details>
+          <summary>Comment ma demande de devis est-elle envoyée ?</summary>
+          <p>Le formulaire construit un message structuré que vous envoyez vous-même par email, WhatsApp ou SMS depuis votre application. Rien n'est transmis avant votre validation.</p>
+        </details>
+        <details>
+          <summary>TPL Autos est-il affilié aux constructeurs Audi, BMW, Mercedes ou Volkswagen ?</summary>
+          <p>Non. TPL Autos est un garage indépendant, sans affiliation officielle aux marques citées, spécialisé dans l'entretien et la réparation des véhicules allemands.</p>
+        </details>
+      </div>
+    </section>
+
     <section class="section contact" id="contact">
-      <div class="section__heading">
+      <div class="section__heading" data-reveal>
         <p class="eyebrow">Contact</p>
         <h2>Garage automobile à Sannois</h2>
       </div>
       <div class="contact-grid">
-        <a href="tel:+33651243479">
+        <a data-reveal href="tel:+33651243479">
           <span>Téléphone</span>
           06 51 24 34 79
         </a>
-        <a href="mailto:tplauto@gmail.com">
+        <a data-reveal href="mailto:tplauto@gmail.com">
           <span>Email</span>
           tplauto@gmail.com
         </a>
-        <address>
+        <a data-reveal href="https://www.google.com/maps/search/?api=1&amp;query=TPL+Autos+16-18+Boulevard+du+Pr%C3%A9sident+John+Kennedy+95110+Sannois" target="_blank" rel="noopener">
           <span>Adresse</span>
           16-18 Boulevard du Président John Kennedy<br>95110 Sannois
-        </address>
+        </a>
       </div>
     </section>
 
-    <section class="seo-local" aria-label="Référencement local">
+    <section class="seo-local" aria-label="Référencement local" data-reveal>
       <h2>Garage automobile à Sannois</h2>
       <p>TPL Autos accompagne les conducteurs de Sannois et des environs, proche Saint-Ouen, pour l'entretien avancé et la réparation de véhicules allemands. Le garage intervient sur les problèmes de suspension, distribution, diagnostic, trains roulants et moteur avec une approche technique et rigoureuse.</p>
     </section>
   </main>
 
   <footer class="footer">
-    <p>TPL Autos - Garage indépendant à Sannois</p>
+    <div class="footer__inner">
+      <img src="logo.svg" alt="TPL Autos" width="129" height="48">
+      <nav class="footer__nav" aria-label="Navigation pied de page">
+        <a href="#specialites">Spécialités</a>
+        <a href="#devis">Devis</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p>TPL Autos — Garage indépendant à Sannois · <span id="footer-year">2026</span></p>
+    </div>
   </footer>
   <script src="app.js" defer></script>
 </body>
