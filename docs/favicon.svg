@@ -1,18 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="TPL Autos">
-  <defs>
-    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f7f9fc"/>
-      <stop offset="0.38" stop-color="#b7c2d1"/>
-      <stop offset="0.72" stop-color="#eef2f7"/>
-      <stop offset="1" stop-color="#7f8da0"/>
-    </linearGradient>
-    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f4f8f"/>
-      <stop offset="1" stop-color="#071a31"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="14" fill="#05070b"/>
-  <path d="M32 3 57 17.5v29L32 61 7 46.5v-29L32 3Z" fill="url(#blue)" stroke="url(#steel)" stroke-width="2.5"/>
-  <path d="M32 9 51.5 20.25v22.5L32 54 12.5 42.75v-22.5L32 9Z" fill="none" stroke="#2d6fad" stroke-width="1.5"/>
-  <text x="32" y="41" text-anchor="middle" fill="url(#steel)" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="0.5">TPL</text>
+  <rect width="64" height="64" rx="14" fill="#f2efe8"/>
+  <rect x="3" y="3" width="58" height="58" rx="11" fill="none" stroke="#14161a" stroke-width="4"/>
+  <rect x="11" y="34" width="42" height="12" fill="#c9dbee"/>
+  <text x="32" y="44" text-anchor="middle" fill="#0b3d71" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="900" letter-spacing="0.5">TPL</text>
 </svg>
