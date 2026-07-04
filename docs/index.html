@@ -46,6 +46,7 @@
     <nav class="nav" aria-label="Navigation principale">
       <a href="#specialites">Spécialités</a>
       <a href="#vehicules">Véhicules</a>
+      <a href="#devis">Devis</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -59,6 +60,7 @@
         <div class="actions" aria-label="Actions de contact">
           <a class="button button--primary" href="tel:+33651243479">Appeler</a>
           <a class="button button--secondary" href="mailto:tplauto@gmail.com">Email</a>
+          <a class="button button--secondary" href="#devis">Devis en ligne</a>
         </div>
       </div>
       <div class="hero__panel" aria-label="Coordonnées TPL Autos">
@@ -142,6 +144,72 @@
       </div>
     </section>
 
+    <section class="section quote" id="devis">
+      <div class="section__heading">
+        <p class="eyebrow">Devis en ligne</p>
+        <h2>Décrivez votre besoin, recevez une réponse claire</h2>
+        <p>Remplissez le formulaire : votre demande arrive structurée à l'atelier, par email, WhatsApp ou SMS. Réponse avec un devis propre, sans engagement.</p>
+      </div>
+      <div class="quote-grid">
+        <form class="quote-form" id="quote-form" aria-label="Formulaire de demande de devis">
+          <div class="field-row">
+            <label>Marque
+              <select id="q-marque">
+                <option value="">Choisir</option>
+                <option>Audi</option>
+                <option>BMW</option>
+                <option>Mercedes</option>
+                <option>Volkswagen</option>
+                <option>Autre</option>
+              </select>
+            </label>
+            <label>Modèle
+              <input type="text" id="q-modele" placeholder="ex : 320d, Golf 7, C220...">
+            </label>
+          </div>
+          <div class="field-row">
+            <label>Année
+              <input type="text" id="q-annee" inputmode="numeric" placeholder="ex : 2018">
+            </label>
+            <label>Kilométrage
+              <input type="text" id="q-km" inputmode="numeric" placeholder="ex : 120 000">
+            </label>
+          </div>
+          <fieldset class="quote-services">
+            <legend>Intervention souhaitée</legend>
+            <label><input type="checkbox" value="Suspension"> Suspension</label>
+            <label><input type="checkbox" value="Distribution"> Distribution</label>
+            <label><input type="checkbox" value="Diagnostic"> Diagnostic</label>
+            <label><input type="checkbox" value="Trains roulants"> Trains roulants</label>
+            <label><input type="checkbox" value="Moteur"> Moteur</label>
+            <label><input type="checkbox" value="Entretien avancé"> Entretien avancé</label>
+            <label><input type="checkbox" value="Achat / revente"> Achat / revente</label>
+          </fieldset>
+          <label>Symptômes ou demande
+            <textarea id="q-desc" rows="4" placeholder="ex : claquement à l'avant droit sur ralentisseur, voyant moteur allumé..."></textarea>
+          </label>
+          <div class="field-row">
+            <label>Votre nom
+              <input type="text" id="q-nom" autocomplete="name">
+            </label>
+            <label>Votre téléphone
+              <input type="tel" id="q-tel" autocomplete="tel" placeholder="06...">
+            </label>
+          </div>
+        </form>
+        <aside class="quote-recap" aria-label="Récapitulatif de la demande">
+          <h3>Votre demande</h3>
+          <pre id="quote-preview">Complétez le formulaire, le récapitulatif se construit tout seul.</pre>
+          <div class="actions">
+            <a class="button button--primary" id="quote-mail" href="mailto:tplauto@gmail.com">Envoyer par email</a>
+            <a class="button button--whatsapp" id="quote-wa" href="https://wa.me/33651243479" target="_blank" rel="noopener">Envoyer sur WhatsApp</a>
+            <a class="button button--secondary" id="quote-sms" href="sms:+33651243479">Envoyer par SMS</a>
+          </div>
+          <p class="quote-note">L'envoi ouvre votre application email, WhatsApp ou SMS avec la demande déjà rédigée. Rien n'est transmis avant votre validation.</p>
+        </aside>
+      </div>
+    </section>
+
     <section class="section contact" id="contact">
       <div class="section__heading">
         <p class="eyebrow">Contact</p>
@@ -172,5 +240,6 @@
   <footer class="footer">
     <p>TPL Autos - Garage indépendant à Sannois</p>
   </footer>
+  <script src="app.js" defer></script>
 </body>
 </html>
