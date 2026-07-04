@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="156" viewBox="0 0 420 156" role="img" aria-labelledby="title desc">
+  <title id="title">TPL Autos</title>
+  <desc id="desc">Logo premium TPL Autos pour garage automobile indépendant</desc>
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f9fc"/>
+      <stop offset="0.38" stop-color="#b7c2d1"/>
+      <stop offset="0.72" stop-color="#eef2f7"/>
+      <stop offset="1" stop-color="#7f8da0"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f4f8f"/>
+      <stop offset="1" stop-color="#071a31"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="156" rx="14" fill="#05070b"/>
+  <path d="M28 78 62 34h74l34 44-34 44H62L28 78Z" fill="none" stroke="url(#steel)" stroke-width="4"/>
+  <path d="M47 78 73 49h52l26 29-26 29H73L47 78Z" fill="url(#blue)" stroke="#2d6fad" stroke-width="2"/>
+  <path d="M78 91 99 55l21 36M86 78h26" fill="none" stroke="url(#steel)" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M185 48h154M185 108h154" stroke="url(#steel)" stroke-width="3"/>
+  <text x="184" y="87" fill="url(#steel)" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="800" letter-spacing="2">TPL</text>
+  <text x="292" y="87" fill="#2d6fad" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" letter-spacing="1">AUTOS</text>
+  <text x="186" y="132" fill="#9aa7b8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3">GARAGE INDEPENDANT</text>
+</svg>
