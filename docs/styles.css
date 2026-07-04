@@ -1,1 +1,12 @@
-body{background:black;color:white}
+body{margin:0;background:#05070b;color:white;font-family:Arial,sans-serif}
+main{padding:60px 7vw}
+h1{font-size:76px;margin:0 0 20px}
+h2{font-size:36px}
+p{color:#aab3c2;font-size:20px;line-height:1.5}
+.tag{color:#1d5fae;text-transform:uppercase;font-weight:bold;letter-spacing:2px}
+.lead{font-size:28px;color:white}
+.hero{padding:60px 0}
+.card{background:#111827;border:1px solid #243044;border-radius:24px;padding:30px;margin:28px 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.grid div{background:#0b1018;border:1px solid #243044;border-radius:18px;padding:22px}
+@media(max-width:800px){h1{font-size:48px}.grid{grid-template-columns:1fr}}
